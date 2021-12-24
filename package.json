@@ -9,7 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^8.2.0"
+    "inquirer": "^8.2.0",
+    "inquirer-loop": "^0.3.0"
   },
   "repository": {
     "type": "git",
