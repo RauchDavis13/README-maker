@@ -13,6 +13,7 @@ const writeFile = fileContent => {
         ok: true,
         message: 'File created!'
       });
+      console.log('File created!');
     });
   });
 };

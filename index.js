@@ -1,13 +1,12 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
-// const path = require('path');
 const generateMarkdown = require('./utils/generateMarkdown');
 const writeFile = require('./utils/createMarkdown');
-
-
   
 // TODO: Create an array of questions for user input
 const questions = () => {
+
+  // uses inquire to prompt user for a series of questions, and the answers will be returned
   return inquirer.prompt([
 
   {
@@ -96,30 +95,25 @@ const questions = () => {
   {
     type: 'input',
     name: 'contributing',
-    message: 'What does the user to know about contributing to the repo?',
+    message: 'What does the user need to know about contributing to the repo?',
 
     
   },
   ]);
 };
 
-
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
 // TODO: Create a function to initialize app
 function init() {
   message = "Hello and welcome to README-maker.  Please answer the following quesitons for your README.md file to be built";
   console.log(message);
-  //questions();
-  
 };
 
-// Function call to initialize app
 init();
+
+// questions data passed to generateMarkdown.js
 questions()
 .then(answerData => {
-  console.log(answerData)
+  console.log('The following data has been entered for your README');
+  console.log(answerData);
   writeFile(generateMarkdown(answerData));
 })

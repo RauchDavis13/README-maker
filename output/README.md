@@ -1,9 +1,9 @@
-# Readme maker
+# README-maker
   ![badmath](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description 
 
-App for a user to create a readme file
+User answers a series of questions and then a README.md file is created with the answer to the user's questions
 
 ## Table of Contents
 
@@ -13,7 +13,7 @@ App for a user to create a readme file
 
 * [License](#license) 
 
-* [Credits](#credits)
+* [Contributing](#contributing)
 * [License](#license)
 
 
@@ -23,13 +23,13 @@ npm i
 
 ## Usage 
 
-The user needs to fill out the questions for the fields to populate in the README.md file
+User enters 'node index.js' at the command line, answers a series of questions where a README.md file is created in the /utils folder.  Open in Preview to see readable README file
 ## License
     This project is licensed under the MIT license
 
 
 ## Contributing
-The user can contribute to the repo in attempts to improve the code
+contact me below
 
 ## Tests
 

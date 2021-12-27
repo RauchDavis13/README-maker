@@ -1,8 +1,3 @@
-// not sure if this is correct
-const fs = require('fs');
-
-
-
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
@@ -51,7 +46,7 @@ ${data.description}
 * [Installation](#installation)
 * [Usage](#usage)
 ${renderLicenseLink(data.license)}
-* [Credits](#credits)
+* [Contributing](#contributing)
 * [License](#license)
 
 
@@ -81,4 +76,5 @@ If you have any questions about the repo, open an issue or contact me directly a
 `;
 }
 
+// exports generateMarkdown data for use with writeFile
 module.exports = generateMarkdown;
