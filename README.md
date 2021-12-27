@@ -70,9 +70,6 @@ Populated README.md file viewed in Preview
 ## GitHub repository...
 https://github.com/RauchDavis13/README-maker.git
 
-## Website...
-https://rauchdavis13.github.io/README-maker/
-
 ## Video Link (Screencastify)
 https://watch.screencastify.com/v/X5EZvwANwYm0RJO1bp48
 
